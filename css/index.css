@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #quees h1 {
     font-family: 'Righteous', cursive;
     color: #1a1a1a;
     font-weight: 300;
     font-size: 80px;
+}
+#banner-down{
+    text-align: center;
 }
 
 #quees a {
@@ -117,7 +125,7 @@ svg {
     font-family: 'Nunito', sans-serif;
     padding-left: 0;
     padding-right: 0;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
 }
 
@@ -163,4 +171,22 @@ svg {
 
 .carrito:hover, .carrito1:hover{
     color: #2b2493;
+}
+
+.dessert-img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(-10px 10px 4px #1b1b1b);
+}
+
+h3{
+    font-family: 'Righteous', cursive;
+    color: #1a1a1a;
+    text-align: left;
+}
+
+#space-products{
+    background-color: #F2EFEA;
+    background-image: url("./imagenes/blob.png");
 }
